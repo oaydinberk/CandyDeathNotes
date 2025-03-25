@@ -1,0 +1,19 @@
+name: CandyDeathNotes
+version: 1.0
+main: com.candydeathnotes.Main
+author: Berk AYDIN
+api-version: 1.12
+depend: [Vault, HolographicDisplays]
+softdepend: [PlayerPoints]
+commands:
+  deathnotes:
+    description: "CandyDeathNotes Plugin Komutları"
+    permission: deathnotes.use
+    aliases: [dn]
+    children:
+      deathnotes.reload:
+        permission: deathnotes.admin
+      deathnotes.menu:
+        permission: deathnotes.use
+      deathnotes.info:
+        permission: deathnotes.use
